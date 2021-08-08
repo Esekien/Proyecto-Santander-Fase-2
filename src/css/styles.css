@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: antiquewhite;
+}
+body h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+body figure {
+  text-align: center;
+}
+body figure .template-image {
+  width: 90%;
+}
+
+/*# sourceMappingURL=styles.css.map */

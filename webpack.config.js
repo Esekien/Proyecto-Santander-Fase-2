@@ -17,7 +17,7 @@ module.exports = {
     module:{
         rules:[
             {
-                test: /\.s[ac]ss$/i,//cuando pasa la prueba
+                test: /\.css$/i,//cuando pasa la prueba
                 use: [
                     // Creates `style` nodes from JS strings
                     "style-loader",
@@ -39,8 +39,8 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|gif)$/i,
-                use: [ "file-loader" ]
-            }
+                type: 'asset/resource'
+            },
         ]
     },
     devServer: {
